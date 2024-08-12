@@ -7,7 +7,7 @@ def get_connection():
     return pymysql.connect(
     host="localhost",
     user="root",
-    password="",
+    passwd="",
     database="redbus")
 
 # Function to fetch route names starting with a specific letter, arranged alphabetically
