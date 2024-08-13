@@ -8,7 +8,8 @@ def get_connection():
     host="localhost:3306",
     user="root",
     passwd="123456789",
-    database="redbus")
+    database="redbus",
+    port=3306)
 
 # Function to fetch route names starting with a specific letter, arranged alphabetically
 def fetch_route_names(connection, starting_letter):
