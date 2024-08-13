@@ -5,7 +5,7 @@ import pandas as pd
 # Connect to MySQL database
 def get_connection():
     return pymysql.connect(
-    host="localhost",
+    host="localhost:3306",
     user="root",
     passwd="123456789",
     database="redbus")
